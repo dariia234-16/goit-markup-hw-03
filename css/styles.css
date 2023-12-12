@@ -20,6 +20,10 @@ body {
   color: var(--SLATE);
 }
 
+.img {
+  display: block;
+}
+
 /* class rules */
 
 /* rules for header */
@@ -51,6 +55,7 @@ body {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   font-family: "Raleway", sans-serif;
+  margin-right: 76px;
 }
 
 .part-of-logo {
@@ -71,6 +76,7 @@ body {
   font-weight: 500;
   line-height: 150%; /* 150% */
   letter-spacing: 0.32px;
+  padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -140,7 +146,6 @@ body {
 
 .hero-image-section {
   background-color: var(--NAVY-BLUE);
-  margin-bottom: 120px;
 }
 
 .hero-image-header {
@@ -150,7 +155,7 @@ body {
   font-weight: 700;
   line-height: 107.143%; /* 107.143% */
   letter-spacing: 1.12px;
-  width: 496px;
+  max-width: 496px;
 }
 
 .hero-image-button {
@@ -217,7 +222,7 @@ body {
 /* section one : positoning */
 
 .first-section {
-  margin-bottom: 120px;
+  padding: 120px 0;
 }
 
 .first-section-container {
