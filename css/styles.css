@@ -213,6 +213,7 @@ body {
   font-weight: 500;
   line-height: 120%; /* 120% */
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 
 .quality-description {
@@ -231,7 +232,6 @@ body {
 .first-section-container {
   display: flex;
   flex-shrink: 0;
-  height: 104px;
 }
 
 .first-section-list {
@@ -247,7 +247,7 @@ body {
   width: 264px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 8px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 /* section two : What are we doing */
 
