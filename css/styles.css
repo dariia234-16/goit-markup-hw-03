@@ -366,7 +366,6 @@ body {
 
 .footer {
   background-color: var(--NAVY-BLUE, #2e2f42);
-  height: 312px;
   padding: 100px 0;
 }
 
@@ -376,7 +375,11 @@ body {
   flex-wrap: wrap;
   align-content: flex-start;
   justify-content: center;
-  gap: 16px;
+}
+
+.logo-footer {
+  margin-bottom: 16px;
+  display: inline-block;
 }
 
 /* ./PORTOFOLIO.HTML */
