@@ -432,15 +432,14 @@ body {
 /* portfolio main positioning rules */
 
 .sec-one-portfolio {
-  margin-top: 96px;
+  padding: 96px 0 120px 0;
 }
+
 .sec-one-container-portfolio {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 72px;
-  padding-bottom: 120px;
 }
 
 .sec-one-list-of-buttons {
@@ -449,6 +448,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   gap: 24px;
+  margin-bottom: 72px;
 }
 
 .list-of-projects-sec-two {
